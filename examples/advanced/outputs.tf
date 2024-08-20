@@ -2,22 +2,17 @@
 # Outputs
 ##############################################################################
 
-output "region" {
-  description = "The region all resources were provisioned in"
-  value       = var.region
+output "resource_group" {
+  value       = module.resource_group
+  description = "Resource Group details"
 }
 
-output "prefix" {
-  description = "The prefix used to name all provisioned resources"
-  value       = var.prefix
+output "key_protect" {
+  value       = module.key_protect
+  description = "Key Protect Instance details"
 }
 
-output "resource_group_name" {
-  description = "The name of the resource group used"
-  value       = var.resource_group
-}
-
-output "resource_tags" {
-  description = "List of resource tags"
-  value       = var.resource_tags
+output "crn_parser_kp" {
+  value       = module.crn_parser_kp
+  description = "CRN Parser outputs"
 }

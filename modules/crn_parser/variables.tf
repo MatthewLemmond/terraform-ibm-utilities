@@ -1,8 +1,8 @@
 ########################################################################################################################
-# Outputs
+# Input Variables
 ########################################################################################################################
 
-#output "myoutput" {
-#  description = "Description of my output"
-#  value       = "value"
-#}
+variable "crn" {
+  type        = string
+  description = "The CRN to be parsed."
+}

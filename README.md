@@ -26,7 +26,9 @@ TODO: Replace this with a description of the modules in this repo.
 <!-- The following content is automatically populated by the pre-commit hook -->
 <!-- BEGIN OVERVIEW HOOK -->
 ## Overview
-* [terraform-ibm-module-template](#terraform-ibm-module-template)
+* [terraform-ibm-utilities](#terraform-ibm-utilities)
+* [Submodules](./modules)
+    * [crn_parser](./modules/crn_parser)
 * [Examples](./examples)
     * [Advanced example](./examples/advanced)
     * [Basic example](./examples/basic)
@@ -93,9 +95,7 @@ statement instead the previous block.
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ### Requirements
 
-| Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3.0 |
+No requirements.
 
 ### Modules
 
